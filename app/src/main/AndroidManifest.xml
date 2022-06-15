@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.drivoolchargingowner">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrivoolChargingOwner"
+        tools:targetApi="31">
+        <activity
+            android:name=".DrivoolShopActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drivool_shop"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".ManageUsersActivity"
+            android:exported="false"
+            android:label="@string/title_activity_manage_users"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".AlertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_alert"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_analytics"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".QuickShareActivity"
+            android:exported="false"
+            android:label="@string/title_activity_quick_share"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".MeterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_meter"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".ChargerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_charger"
+            android:theme="@style/Theme.DrivoolChargingOwner" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DrivoolChargingOwner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

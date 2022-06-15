@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrivoolChargingOwner</string>
+    <string name="title_activity_charger">ChargerActivity</string>
+    <string name="title_activity_meter">MeterActivity</string>
+    <string name="title_activity_quick_share">QuickShareActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_analytics">AnalyticsActivity</string>
+    <string name="title_activity_alert">AlertActivity</string>
+    <string name="title_activity_manage_users">ManageUsersActivity</string>
+    <string name="title_activity_drivool_shop">DrivoolShopActivity</string>
+</resources>
